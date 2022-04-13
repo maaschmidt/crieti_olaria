@@ -3,11 +3,17 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Uma tradicional olaria da cidade, chamada Olaria Alegria.">
+    <meta name="description" content="Uma tradicional olaria da cidade, chamada Olaria Alegria, finalmente percebeu que para seus negócios fluírem melhor e crescerem exponencialmente, é necessário estar presente na internet.
+    Com isso, ela decidiu contratar o seu serviço de desenvolvimento para fazer a criação de uma página institucional.
+    O site deve ter em destaque o nome da olaria, acompanhado da frase Tradição e qualidade na fabricação de tijolo, que é o lema da empresa.
+    Deve ter uma foto de destaque grande com o principal produto da empresa: o tijolo de barro.
+    Também deverão ser exibidas as quatro linhas de produtos da olaria: Blocos cerâmicos, Lajes, Artefatos de concreto e Estruturas pré-moldadas.
+    O dono da olaria gosta muito das cores laranja e cinza, então gostaria que estas cores estivessem presentes no site.
+    Por fim, deverá existir uma parte do site onde ficarão o número de telefone, o e-mail para contato e o endereço da fábrica.
+    ">
     <meta name="keywords" content="Olaria, Tijolo, Alegria, Bloco, Construção">
     <meta name="author" content="Marcel in CRIE_TI">
     <meta name="viewport" content="width=device-width, initial-scale-1.0">
-    <link type="image/png" sizes="16x16" rel="icon" href="assets/images/icons8-parede-de-tijolo-16.png">
     <title> Olaria alegria </title>
     <style>
         /* identificador { */
@@ -18,6 +24,16 @@
         }
         h3{
             color:#494949;
+        }
+        div.box {
+            width: 500px;
+            display: inline-block;
+        }
+        
+        div.box2 {
+            width: 500px;
+            height: 400px;
+            display: inline-block;
         }
         #about{
             background-color:#f6f8f3;
@@ -33,28 +49,18 @@
         #foot {
             background-color: #1b1b1b;
             color: #ffffff;
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             text-align: center;
         }
         .banner {
             width: 100%;
         }
-        div.box {
-                width: 550px;
-                display: inline-block;
-                text-align: center;
-        }
-        div.boxx {
-                width: 550px;
-                display: inline-block;
-                text-align: center;
-        }
         div.video{
             text-align: center;
         }
         div.margin{
-            margin: 0% 8% 0% 8%;
+            margin: 0px 0px 0px 50px;
         }
     </style>
 </head>
@@ -73,32 +79,31 @@
         <nav>
         <img style="margin-top: 20px;" class="banner" src="assets/images/banner.jpg" alt="Tijolos" width="1350"> 
     </header>
-    <br/>
 
     <section id="products">
-        <div class="margin">
-            <h3>Produtos</h3>
-            <div class="box">
-                <img src="assets/images/blocos-ceramicos.jpg" width="550px" height="350px"/>
-                <span><b> Blocos Cerâmicos </b></span>
-            </div>
-            <div class="box">
-                <img src="assets/images/lajes.jpg" width="550px" height="350px"/>
-                <span><b> Lajes </b></span>
-            </div>
-            <div class="boxx">
-                <img src="assets/images/artefatos-de-concreto.png" width="550px" height="350px"/>
-                <span> <b> Artefatos de Concreto </b></span>
-            </div>
-            <div class="boxx">
-                <img src="assets/images/estruturas-pre-moldadas.jpg" width="550px" height="350px"/>
-                <span><b> Estruturas Pré-Moldadas </b></span>
-            </div>
+        <h3>Produtos</h3>
+
+        <div class="box">
+            <img src="assets/images/blocos-ceramicos.jpg"/>
+            <span> Titulo da primeira imagem </span>
         </div>
+        <div class="box">
+            <img src="assets/images/lajes.jpg"/>
+            <span> Titulo da segunda imagem </span>
+        </div>
+        <div class="box2">
+            <img src="assets/images/artefatos-de-concreto.png"/>
+            <span> Artefatos de Concreto </span>
+        </div>
+        <div class="box2">
+            <img src="assets/images/estruturas-pre-moldadas.jpg"/>
+            <span> Estruturas Pré-Moldadas </span>
+        </div>
+
     </section>
-    <br/>
+
     <section id="about">
-        <div class="margin">
+        <div class="margin"></div>
             <h3>Sobre nós</h3>
             <h5>Conheça um pouco de nossa tradição e história</h5>
 
@@ -116,26 +121,22 @@
     </section>
 
     <section id="quote">
-        <div class="margin">
-            <h3 style="color: #ffffff;">Solicite um orçamento</h3>
-            <p>Entre em contato conosco via e-mail ou telefone e faça sua cotação. Proporcionamos orientação técnica para aumentar o nível de segurança em sua obra.</p>
-        </div>    
+        <h3 style="color: #ffffff;">Solicite um orçamento</h3>
+        <p>Entre em contato conosco via e-mail ou telefone e faça sua cotação. Proporcionamos orientação técnica para aumentar o nível de segurança em sua obra.</p>
     </section>
     
     <section id="contact">
-        <div class="margin">
-            <h3>Contato</h3>
-            <h5>Ficou com alguma dúvida? Entre em contato conosco ou venha nos visitar!</h5>
-            <div><a href="tel:+5500999999999">(00) 9999-9999</a></div>
-            <div><a href="mail:contato@olariaalegria.com.br" >contato@olariaalegria.com.br</a></div>
-            <br/>
-            <address>
-                Olaria Alegre<br/>
-                Estrada sem nome, 1234<br/>
-                Bairro - Cidade / UF, 12345-678<br/>
-            </address>
-        </div>
-        </section>
+        <h3>Contato</h3>
+        <h5>Ficou com alguma dúvida? Entre em contato conosco ou venha nos visitar!</h5>
+        <div><a href="tel:+5500999999999">(00) 9999-9999</a></div>
+        <div><a href="mail:contato@olariaalegria.com.br" >contato@olariaalegria.com.br</a></div>
+        <br/>
+        <address>
+            Olaria Alegre<br/>
+            Estrada sem nome, 1234<br/>
+            Bairro - Cidade / UF, 12345-678<br/>
+        </address>
+    </section>
     <br/>
     <br/>
     <br/>
