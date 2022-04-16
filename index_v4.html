@@ -39,7 +39,6 @@
         padding-top: 40px;
         padding-bottom: 40px;
         text-align: center;
-        justify-content: center;
         display: flex;
         justify-content: space-between;
       }
@@ -66,12 +65,11 @@
         width: 50%;
         display: inline-block;
         float: left;
-        /*padding e margin funcionam no sentido horario
-        padding-top: 1px;
-        padding-right: 2px;
-        padding-bottom: 3px;
-        padding-left: 4px;
-        padding: 1px 2px 3px 4px;*/
+        /*padding e margin funciona no sentido horario
+        padding-top: ;
+        padding-right: ;
+        padding-bottom: ;
+        padding-left: ;*/
         padding: 2px;
         box-sizing: border-box;
       }
@@ -109,57 +107,22 @@
         margin-bottom: 20px;
         box-sizing: border-box;
       }
-      header {
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
-        position: fixed;
-        top: 0;
-        left: 8px;
-        right: 8px;
-        height: 80px;
-      }
-      .brand-name {
-        color: #f9742b;
-        margin-right: 20px;
-      }
-      .brand-phrase {
-        margin-left: 0%;
-        margin-right: auto;
-      }
-      .banner {
-        width: 100%;
-        height: 600px;
-        margin-top: 80px;
-        object-fit: cover;
-      }
-      .brand-name a {
-        color: inherit;
-        text-decoration: none;
-      }
     </style>
-</head>
+  </head>
 
-<body>
-  <header>
-    <h1 class="brand-name">
-    <a href="#banner">Olaria Alegria</a>
-    </h1>
-    <h2 class="brand-phrase">Tradição e qualidade na fabricação de tijolos</h2>
+  <body>
+    <h1 style="color: #f9742b">Olaria Alegria</h1>
+    <h2>Tradição e qualidade na fabricação de tijolos</h2>
     <nav>
-      <a href="#products">Produtos</a>
-      <a href="#about">Sobre</a>
-      <a href="#quote">Orçamento</a>
-      <a href="#contact">Contato</a>
-    </nav>       
+        <a href="#products">Produtos</a>
+        <a href="#about">Sobre</a>
+        <a href="#quote">Orçamento</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <img class="banner" src="assets/images/banner.jpg" />
   </header>
-  <section id="banner">
-    <img class="banner" src="assets/images/banner.jpg"/>
-  </section>
-  <br/>
-  <br/>
+  <br />
+  <br />
   <section id="products">
     <div class="margin">
       <h3>Produtos</h3>
@@ -173,11 +136,11 @@
           <div class="product-name">Lajes</div>
         </div>
         <div class="clearfix"></div>
-          <div class="row">
-            <div class="column">
+        <div class="row">
+          <div class="column">
               <img class="product-image" src="assets/images/artefatos-de-concreto.png"/>
               <div class="product-name">Artefatos de concreto</div>
-            </div>
+          </div>
           <div class="column">
             <img class="product-image" src="assets/images/estruturas-pre-moldadas.jpg"/>
             <div class="product-name">Estruturas pré-moldadas</div>
@@ -222,9 +185,9 @@
         </select>
         <label for="attachments"><b>Anexos:</b></label><br/>
         <input class="form-item" type="file" id="attachments" name="attachments"> 
-        <label for="message">Mensagem:</label><br/>
-        <textarea class="form-item" id="message" name="message" placeholder="Mensagem" rows="5"></textarea>
-        <input class="form-item" type="submit" value="Enviar">   
+          <label for="message">Mensagem:</label><br/>
+          <textarea class="form-item" id="message" name="message" placeholder="Mensagem" rows="5"></textarea>
+          <input class="form-item" type="submit" value="Enviar">   
       </form>
     </div>
   </section>
@@ -244,6 +207,7 @@
       </address>
     </div>
   </section>
+  </div>
   <br/>
   <br/>
   <br/>
@@ -255,12 +219,11 @@
         <a href="index_v1.html">v1</a>
         <a href="index_v2.html">v2</a>
         <a href="index_v3.html">v3</a>
-        <a href="index_v4.html">v4</a>
-        <a>v5</a>
+        <a>v4</a>
+        <a href="index.html">v5</a>
       </nav> 
     </div>
   </footer>
-
-</body>
+  </body>
 
 </html>
